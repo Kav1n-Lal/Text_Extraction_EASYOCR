@@ -15,5 +15,5 @@
  
  # OTHERS 
 - Create a folder and copy craft_mlt.pth,english_g2.pth files and cudacheck.py file 
-- Inside the cudacheck.py file in the lines 21 and 40 type your mysql password in it
+- Inside the cudacheck.py file in the lines 21,40and 330 type your mysql password in it
 - Run streamlit run cudacheck.py
