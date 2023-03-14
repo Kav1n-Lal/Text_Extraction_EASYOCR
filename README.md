@@ -12,7 +12,8 @@
   (id INT AUTO_INCREMENT PRIMARY KEY,registered_name VARCHAR(30),registered_email VARCHAR(50),registered_userid VARCHAR(4),
   company VARCHAR(100),cardholder VARCHAR(50),designation VARCHAR(75),mobile VARCHAR(100),email VARCHAR(50),
   website VARCHAR(100),pincode VARCHAR(6),state VARCHAR(50),district VARCHAR(50),area VARCHAR(100),bizcard_photo MEDIUMBLOB NOT NULL);
-  
+ 
+ # OTHERS 
 - Create a folder and copy craft_mlt.pth,english_g2.pth files and cudacheck.py file 
 - Inside the cudacheck.py file in the lines 21 and 40 type your mysql password in it
 - Run streamlit run cudacheck.py
