@@ -18,7 +18,7 @@ ID=st.text_input('Enter UserID')
 
     
 
-mydb=mysql.connect(user="root",password="AccountsandRoles@78",
+mydb=mysql.connect(user="root",password="<password>",
  host="localhost",database='userinfo')
 my_cursor=mydb.cursor()
 y=f"SELECT * FROM customer_details WHERE name='{Username}' AND email='{Useremail}' AND userid='{ID}'"
@@ -37,7 +37,7 @@ def new():
     p_in.append(str(n))
     
     
-    mydb=mysql.connect(user="root",password="AccountsandRoles@78",host="localhost",database='userinfo')
+    mydb=mysql.connect(user="root",password="<password>",host="localhost",database='userinfo')
     my_cursor=mydb.cursor()
     query=f"INSERT INTO customer_details (name,email,userid) VALUES (%s,%s,%s)"
     records=(Username,Useremail,p_in[-1])
@@ -239,7 +239,7 @@ elif len(g)!=0:
                                 end['Pin'],end['State'],end['District'],
                                 end['Area'],end['bizcard_photo'])
                             if data:
-                                #mydb=mysql.connect(user="root",password="AccountsandRoles@78",host="localhost",database='userinfo')
+                                #mydb=mysql.connect(user="root",password="<password>",host="localhost",database='userinfo')
                                 my_cursor=mydb.cursor()
                                 detail=f"INSERT INTO bizcard_details (registered_name,registered_email,registered_userid,company,cardholder,designation,mobile ,email ,website ,pincode ,state ,district,area,bizcard_photo ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
                                 record=(sql)
@@ -264,7 +264,7 @@ elif len(g)!=0:
                         end['Pin'],end['State'],end['District'],
                         end['Area'],end['bizcard_photo'])
                     if data:
-                        #mydb=mysql.connect(user="root",password="AccountsandRoles@78",host="localhost",database='userinfo')
+                        #mydb=mysql.connect(user="root",password="<password>",host="localhost",database='userinfo')
                         my_cursor=mydb.cursor()
                         detail=f"INSERT INTO bizcard_details (registered_name,registered_email,registered_userid,company,cardholder,designation,mobile ,email ,website ,pincode ,state ,district,area,bizcard_photo ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
                         record=(sql)
@@ -327,7 +327,7 @@ z=forme.text_input('Enter the USERID of the cardholder you want to delete')
 d=forme.form_submit_button('delete')
     
 if d:
-    mydb=mysql.connect(user="root",password="AccountsandRoles@78",host="localhost",database='userinfo')
+    mydb=mysql.connect(user="root",password="<password>",host="localhost",database='userinfo')
     my_cursor=mydb.cursor()
     detail=f'DELETE FROM bizcard_details WHERE id={x1} AND registered_userid="{z}"'
     #record=(sql)
