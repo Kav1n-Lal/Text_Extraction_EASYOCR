@@ -1,17 +1,13 @@
 # App Demo
-*Click Below Link to view app demonstration video*
-https://drive.google.com/file/d/13IyHs2RnZ6tAPn-AzY0YnaPsE0DSXzkc/view?usp=drive_link
+*Click Link to view app demonstration video*
+https://drive.google.com/file/d/13IyHs2RnZ6tAPn-AzY0YnaPsE0DSXzkc/view?usp=sharing
 
 ## Some screenshots from the app
-
-### Initial look
-![Screenshot (172)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/956a1c65-64ae-425d-8171-cb4fbf98124e)
-
-### After entering credentials
-![Screenshot (173)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/a3f5355d-2342-4910-add0-0022c161579e)
-
-### After loading the image and its corresponding extracted text
-![Screenshot (175)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/fd56a2b0-ee7c-4b51-8a68-0e71369353ef)
+![Screenshot (203)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/21b05c8a-010c-4bb1-868f-54e867e8d97a)
+![Screenshot (204)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/7e0f2345-c87a-4f4e-ba3d-6e25b00ab40b)
+![Screenshot (205)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/e6e7622c-ae63-483e-8428-840c6849c19e)
+![Screenshot (206)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/0038f332-86cb-4744-9e85-f8702174b5df)
+![Screenshot (207)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/6caba409-712b-4ce0-9916-41c74a305d12)
 
 
 # Text_Extraction_EASYOCR
