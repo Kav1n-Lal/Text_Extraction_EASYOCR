@@ -3,6 +3,7 @@
 https://drive.google.com/file/d/13IyHs2RnZ6tAPn-AzY0YnaPsE0DSXzkc/view?usp=drive_link
 
 ## Some screenshots from the app
+
 **Initial look**
 ![Screenshot (172)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/956a1c65-64ae-425d-8171-cb4fbf98124e)
 
