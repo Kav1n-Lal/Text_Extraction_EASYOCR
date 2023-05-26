@@ -3,11 +3,13 @@
 https://drive.google.com/file/d/13IyHs2RnZ6tAPn-AzY0YnaPsE0DSXzkc/view?usp=drive_link
 
 ## Some screenshots from the app
-** Initial look **
+**Initial look**
 ![Screenshot (172)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/956a1c65-64ae-425d-8171-cb4fbf98124e)
-** After entering credentials
+
+**After entering credentials**
 ![Screenshot (173)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/a3f5355d-2342-4910-add0-0022c161579e)
-** After loading the image and its corresponding extracted text **
+
+**After loading the image and its corresponding extracted text**
 ![Screenshot (175)](https://github.com/Kav1n-Lal/Text_Extraction_EASYOCR/assets/116146011/fd56a2b0-ee7c-4b51-8a68-0e71369353ef)
 
 
